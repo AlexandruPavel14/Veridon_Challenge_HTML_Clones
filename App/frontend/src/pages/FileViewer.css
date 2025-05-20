@@ -1,0 +1,76 @@
+.file-viewer-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #f9fafb;
+}
+
+.file-viewer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.file-viewer-header h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.view-toggle label {
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.view-toggle input {
+  margin-right: 0.4rem;
+}
+
+.stacked-layout > div {
+  margin-bottom: 2rem;
+}
+
+.rendered-iframe {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.code-scroll {
+  max-height: 80vh;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: #fdfdfd;
+}
+
+/* Split View Styles */
+.split-layout {
+  display: flex;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.split-panel {
+  width: 50%;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.split-divider {
+  width: 6px;
+  background-color: #e2e8f0;
+  cursor: col-resize;
+  transition: background-color 0.2s;
+}
+
+.split-divider:hover {
+  background-color: #cbd5e1;
+}

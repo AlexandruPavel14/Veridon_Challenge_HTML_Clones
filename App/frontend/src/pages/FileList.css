@@ -1,0 +1,53 @@
+.file-list-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.file-list-card {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.file-list-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.group-name {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.file-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file-list-items li {
+  margin-bottom: 0.75rem;
+}
+
+.file-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.file-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}

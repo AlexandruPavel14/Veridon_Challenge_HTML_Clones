@@ -9,3 +9,9 @@ Data exploration can be found at [Data-Exploration.ipynb](./Data-Exploration/Dat
 ## Step 2 - Documentation to setup the environment
 
 It can be found in the [Documentation](./Documentation/) folder.  
+
+## Step 3 - Backend Logic
+The backend logic can be found in the [Backend](./App/backend/) folder.
+
+## Step 4 - Frontend Logic
+The backend logic can be found in the [Frontend](./App/frontend/) folder.

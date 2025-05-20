@@ -1,0 +1,124 @@
+.landing-page {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.landing-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.landing-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.landing-subtext {
+  text-align: center;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.input-group input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.error-message {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #fecaca;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.action-area {
+  display: flex;
+  justify-content: center;
+}
+
+.action-area button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.action-area button:hover {
+  background-color: #1d4ed8;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.primary-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #fbb03c; /* Elegant yellow */
+  color: #1f2937; /* Dark text */
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #f59e0b;
+}
+
+.secondary-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #111827; /* Elegant black */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: #1f2937;
+}
