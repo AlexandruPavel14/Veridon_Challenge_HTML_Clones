@@ -5,3 +5,7 @@
 ## Step 1 - Data Exploration
 
 Data exploration can be found at [Data-Exploration.ipynb](./Data-Exploration/Data-Exploration.ipynb)
+
+## Step 2 - Documentation to setup the environment
+
+It can be found in the [Documentation](./Documentation/) folder.  
